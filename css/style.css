@@ -1,0 +1,44 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courgette', cursive;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('https://cdn.pixabay.com/photo/2019/12/14/08/05/moon-festival-4694437_960_720.png');
+    background-position: center;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main {
+}
+h1 {
+    font-size: 70px;
+    text-align: center;
+}
+h2 {
+    font-size: 70px;
+}
+h3 {
+    font-size: 36px;
+}
+h4{
+    font-size: 48px;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row .item {
+    text-align: center;
+    padding: 30px;
+    background:#DFFF00;
+    color: #000000;
+    border-radius: 20px;
+}
