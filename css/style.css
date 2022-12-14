@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url('https://cdn.pixabay.com/photo/2019/12/14/08/05/moon-festival-4694437_960_720.png');
+    background-image: url('https://happybox.vn/wp-content/uploads/2022/05/tet-2023-nam-con-meo-Quy-mao.jpg');
     background-position: center;
     object-fit: cover;
     background-repeat: no-repeat;
@@ -20,10 +20,9 @@ main {
 h1 {
     font-size: 70px;
     text-align: center;
+    color: red;
 }
-h2 {
-    font-size: 70px;
-}
+
 h3 {
     font-size: 36px;
 }
@@ -39,6 +38,6 @@ h4{
     text-align: center;
     padding: 30px;
     background:#DFFF00;
-    color: #000000;
+    color: #000;
     border-radius: 20px;
 }
