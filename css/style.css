@@ -41,3 +41,30 @@ h4{
     color: #000;
     border-radius: 20px;
 }
+@media screen and (max-width: 576px) {
+    h1 {
+        font-size: 24px;
+        text-align: center;
+        color: #fff;
+        margin: 20px 0;
+    }
+    
+    h3 {
+        font-size: 20px;
+    }
+    h4{
+        font-size: 24px;
+    }
+    .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .row .item {
+        text-align: center;
+        padding: 30px;
+        background:#DFFF00;
+        color: #000;
+        border-radius: 6px;
+    }
+}
