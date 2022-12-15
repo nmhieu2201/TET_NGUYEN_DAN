@@ -9,24 +9,22 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url('https://happybox.vn/wp-content/uploads/2022/05/tet-2023-nam-con-meo-Quy-mao.jpg');
-    background-position: center;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #fffcf2;
 }
-main {
+img {
+    padding: 10px;
+    animation: rotation 4.5s ease infinite;
 }
-h1 {
+.title {
     font-size: 70px;
     text-align: center;
-    color: #fff;
+    color: #000;
 }
 
 h3 {
     font-size: 36px;
 }
-h4{
+h4 {
     font-size: 48px;
 }
 .row {
@@ -37,34 +35,58 @@ h4{
 .row .item {
     text-align: center;
     padding: 30px;
-    background:#DFFF00;
+    background: #ffdd7e;
     color: #000;
+    border-style: dashed red;
     border-radius: 20px;
 }
 @media screen and (max-width: 576px) {
-    h1 {
+    body {
+        width: 100%;
+    }
+    .title {
         font-size: 24px;
-        text-align: center;
-        color: #fff;
+        color: #000;
         margin: 20px 0;
+        text-align: center;
+        font-size: 36px;
+        line-height: 2em;
     }
-    
-    h3 {
-        font-size: 20px;
+
+    .time {
+        font-size: 40px;
+        text-align: center;
+        margin: 10px;
     }
-    h4{
-        font-size: 24px;
+    .title-main {
+        font-size: 40px;
+        text-align: center;
+        margin: 0;
+        color: #000;
     }
     .row {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr 1fr;
     }
     .row .item {
+        width: 200px;
         text-align: center;
         padding: 30px;
-        background:#DFFF00;
         color: #000;
-        border-radius: 6px;
+        border: 3px dashed red;
+        border-radius: 20px;
+    }
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(2deg);
+    }
+    50% {
+        transform: rotate(-2deg);
+    }
+    100% {
+        transform: rotate(2deg);
     }
 }

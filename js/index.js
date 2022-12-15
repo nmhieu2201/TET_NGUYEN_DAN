@@ -1,5 +1,4 @@
 var tetAmLich = new Date("2023-01-22T00:00:00").getTime();
-console.log(tetAmLich);
 function newYear(){
     let dateNow = new Date().getTime();
     let time = tetAmLich - dateNow;
